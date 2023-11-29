@@ -1,11 +1,6 @@
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  makeStyles,
-} from "@material-ui/core";
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { useHistory } from "react-router-dom";
+import { makeStyles } from "@material-ui/core/styles";
 
 import isAuth, { userType } from "../lib/isAuth";
 

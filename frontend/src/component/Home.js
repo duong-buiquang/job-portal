@@ -5,7 +5,6 @@ import {
   Grid,
   IconButton,
   InputAdornment,
-  makeStyles,
   Paper,
   TextField,
   Typography,
@@ -15,16 +14,16 @@ import {
   FormGroup,
   MenuItem,
   Checkbox,
-} from "@material-ui/core";
-import Rating from "@material-ui/lab/Rating";
-import Pagination from "@material-ui/lab/Pagination";
+} from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
+import Rating from "@mui/material/Rating";
+import Pagination from "@mui/material/Pagination";
 import axios from "axios";
-import SearchIcon from "@material-ui/icons/Search";
-import FilterListIcon from "@material-ui/icons/FilterList";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
-import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
-
+import FilterListIcon from "@mui/material/FilledInput";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { SetPopupContext } from "../App";
+import { makeStyles } from "@material-ui/core/styles";
 
 import apiList from "../lib/apiList";
 import { userType } from "../lib/isAuth";

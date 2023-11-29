@@ -5,12 +5,12 @@ import {
   Typography,
   Modal,
   Paper,
-  makeStyles,
   TextField,
   MenuItem,
-} from "@material-ui/core";
+} from "@mui/material";
 import axios from "axios";
-import ChipInput from "material-ui-chip-input";
+import ChipInput from "@mui/material/Chip";
+import { makeStyles } from "@material-ui/core/styles";
 
 import { SetPopupContext } from "../../App";
 

@@ -5,9 +5,10 @@ import {
   Typography,
   Modal,
   Paper,
-  makeStyles,
   TextField,
-} from "@material-ui/core";
+} from "@mui/material";
+import { makeStyles } from "@material-ui/core/styles";
+
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/material.css";

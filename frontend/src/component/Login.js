@@ -1,12 +1,7 @@
 import { useContext, useState } from "react";
-import {
-  Grid,
-  TextField,
-  Button,
-  Typography,
-  makeStyles,
-  Paper,
-} from "@material-ui/core";
+import { Grid, TextField, Button, Typography, Paper } from "@mui/material";
+import { makeStyles } from "@material-ui/core/styles";
+
 import axios from "axios";
 import { Redirect } from "react-router-dom";
 
